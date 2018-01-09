@@ -12,10 +12,10 @@ int main()
     }
     if( temp == sum)
     {
-        printf("Amstrong");
+        printf("yes");
     }
     else
     {
-        printf("not Amstrong");
+        printf("no");
     }
 }
