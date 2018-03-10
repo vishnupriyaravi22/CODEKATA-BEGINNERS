@@ -6,9 +6,9 @@ int N;
 scanf("%d",&N);
 int L,R;
 scanf("%d %d",&L,&R);
-
-if(L>N<R)
+    if(N>=L&&N<=R)
 printf("yes");
-
+else
+  printf("no");
 return 0;
 }
