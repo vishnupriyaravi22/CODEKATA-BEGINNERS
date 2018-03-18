@@ -1,13 +1,13 @@
 #include<stdio.h>
 int main()
 {
-	int n,i,a,b,c;
-	printf("enter the number:");
-	scanf("%d",&n);
-	for(i=1;i<=n;i++)
+	int num;
+	int i,a,b,c;
+	scanf("%d",&num);
+	for(i=1;i<=num;i++)
 	{
 		a=pow(2,i);
-		if(a>n)
+		if(a>num)
 		{
 			b=i;
 			break;
