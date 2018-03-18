@@ -2,10 +2,10 @@
  
 int main() 
 {
-	int num;
-	printf("\n enter the number from 1 to 10");
-	scanf("%d",&num);
-	switch(num)
+	int n;
+	
+	scanf("%d",&n);
+	switch(n)
 	{
 		case 1:
 		printf("\none");
