@@ -1,14 +1,15 @@
 #include<stdio.h>
 int main()
 {
-int n,max=0,i,a[10];
+int num,max=0,i,a[10];
+  scanf("%d",&num);
 max=a[0];
 
-for(i=0;i<10;i++)
+for(i=0;i<num;i++)
 {
 scanf("%d",&a[i]);
 }
-for(i=0;i<n;i++)
+for(i=0;i<num;i++)
 {
 if(a[i]>max)
 max=a[i];
