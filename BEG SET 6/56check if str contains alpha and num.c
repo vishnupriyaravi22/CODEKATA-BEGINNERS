@@ -2,18 +2,18 @@
 #include<string.h>
 int main() 
 {
-	char str[20];
+	char s[20];
 	int n,i,flag;
 	printf("enter the string:");
-	scanf("%s",str);
-	n=strlen(str);
+	scanf("%s",s);
+	n=strlen(s);
 	for(i=0;i<n;i++)
 	{
-		if((str[i]>='a'&&str[i]<='z')||(str[i]>='A' && str[i]<='Z'))
+		if((s[i]>='a'&&s[i]<='z')||(s[i]>='A' && s[i]<='Z'))
 		{
 			flag=1;
 		}
-		else if(str[i]>='0' && str[i]<='9')
+		else if(s[i]>='0' && s[i]<='9')
 		{
 			flag=2;
 		}
