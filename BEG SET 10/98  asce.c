@@ -1,13 +1,13 @@
 #include <stdio.h>
 int main() 
 {	
-   int num,a[10],i,flag=0;
+   int n,a[10],i,flag=0;
    scanf("%d",&n);
-   for(i=0;i<num;i++)
+   for(i=0;i<n;i++)
    {
        scanf("%d",&a[i]);
    }
-   for(i=0;i<num;i++)
+   for(i=0;i<n;i++)
    {
         if(a[i]<a[i+1])
         {
