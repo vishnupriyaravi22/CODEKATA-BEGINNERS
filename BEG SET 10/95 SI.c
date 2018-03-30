@@ -2,11 +2,11 @@
 #include<math.h>
 int main()
 {
-	float p,r,si;
+	float p,r,s;
 	int n,res;
 	scanf("%f %d %f",&p,&n,&r);
-	si=((p*n*r)/100);
-	res=floor(si);
+	s=((p*n*r)/100);
+	res=floor(s);
 	printf("%d",res);
 	return 0;
 }
